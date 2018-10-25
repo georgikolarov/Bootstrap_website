@@ -1,0 +1,53 @@
+.carousel{
+    position: relative !important;
+}
+.navbar{
+    position: absolute ;
+    text-align: center !important;
+    background-color: transparent;
+    z-index: 1;
+}
+.navbar .nav-item{
+    padding-right: 20px;
+}
+.navbar .nav-item:last-of-type{
+    padding-right: 0px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 30px;
+    height: 60px;
+}
+.carousel-control-prev-icon{
+    background-image: url("../img/left.png");
+}
+.carousel-control-next-icon{
+    background-image: url("../img/right.png");
+}
+.carousel-indicators li {
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,.5);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #c7b299;
+}
+@media (max-width: 992px) {
+.navbar{
+    position: relative !important;
+    background-color: #3e3f3e;
+}
+.navbar .nav-item{
+        padding-right: 0px;
+    }
+
+}
