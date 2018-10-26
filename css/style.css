@@ -6,6 +6,8 @@
     text-align: center !important;
     background-color: transparent;
     z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .navbar .nav-item{
     padding-right: 20px;
@@ -41,6 +43,61 @@
 .navbar .navbar-nav .nav-link:hover{
     color: #c7b299;
 }
+.carousel-caption {
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-navTop{
+    background-color: #998675;
+    color: #fff;
+}
+
+.btn-navTop span{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.feature1{
+    margin-top: 80px;
+}
+.feature1 .line {
+    display: inline-block;
+    border: 1px solid #998675;
+    width: 70px;
+}
+.feature2{
+    background-color: #fbfaf8;
+}
+.feature2 .parent{
+    background-image: url('../img/Waxom-Hemepage_08.png');
+    width: 100%;
+    height: 482px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+
+
+@media (max-width: 1100px) {
+    .carousel-caption {
+        line-height: 40px;
+        letter-spacing: 3px;
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        left: 15%;
+        color: #fff;
+        text-align: center;
+    }
+}
 @media (max-width: 992px) {
 .navbar{
     position: relative !important;
@@ -50,4 +107,78 @@
         padding-right: 0px;
     }
 
+    .feature1 .col-lg-3{
+        margin-bottom: 30px !important;
+    }
+
+    .feature2 .parent{
+        background-image: url('../img/Waxom-Hemepage_08.png');
+        width: 100%;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
 }
+@media (max-width: 768px) {
+    .carousel-caption {
+        line-height: 40px;
+        letter-spacing: 3px;
+        position: absolute;
+        z-index: 1;
+        top: 5%;
+        left: 15%;
+        color: #fff;
+        text-align: center;
+    }
+    .feature2 .parent{
+        background-image: url('../img/Waxom-Hemepage_08.png');
+        width: 100%;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+}
+@media (max-width: 700px) {
+    .carousel-caption {
+        position: absolute;
+        z-index: 1;
+        top: -3%;
+        left: 15%;
+        color: #fff;
+        text-align: center;
+    }
+    .carousel-caption p {
+        display: none;
+    }
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
+    .carousel-caption h1 {
+        font-size: 18px;
+        margin: 0px;
+    }
+    .carousel-caption span {
+        font-size: 14px;
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .feature2 .parent{
+        background-image: url('../img/Waxom-Hemepage_08.png');
+        width: 100%;
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+
+
+
