@@ -58,6 +58,10 @@
     background-color: #998675;
     color: #fff;
 }
+.btn-navTop:hover{
+    background-color: #997C4C;
+    color: #fff;
+}
 
 .btn-navTop span{
     margin-top: 0.5rem !important;
@@ -71,6 +75,7 @@
     border: 1px solid #998675;
     width: 70px;
 }
+
 .feature2{
     background-color: #fbfaf8;
 }
@@ -83,9 +88,276 @@
     background-position: center bottom;
 }
 
+.mybackground{
+    background: linear-gradient(to right,  #211b19 0%, #4e3427 100%);
+}
+.feature2 .content{
+    padding-left: 18%;
+}
+.feature2 .content h5{
+    color: #fff;
+}
+.feature2 .content h5 span{
+    color: #c7b299;
+}
+.feature2 .content p{
+    color: #615855;
+}
+.feature3 .content{
+    padding-top: 40px;
+}
+.feature3 .content p{
+    margin-bottom: 2rem;
+}
+.feature2 button{
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    opacity: 1;
+    color: #fff;
+    border-bottom: 4px solid #736357;
+    margin-bottom: 10px;
+}
+.feature2 button:hover{
+    width: 170px;
+    height: 50px;
+    background-color: #997C4C;
+    opacity: 1;
+    color: #fff;
+    border-bottom: 4px solid #736357;
+    margin-bottom: 10px;
+}
+.feature3 ul{
+    list-style: none;
+}
+.feature3 ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.feature3 ul li a:hover {
+    color: #fff;
+}
+.feature3 ul li{
+    border: 1px solid #ddd;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    color: #000;
+    margin-right: 10px;
+}
+.feature3 ul li:hover{
+    background-color: #998675;
+    color: #fff;
+}
+.feature3 ul .active {
+    background-color: #998675;
+    padding: 5px 15px 5px 15px;
+}
 
+.feature3 ul .active a {
+    color: #fff;
+}
 
+.feature3 .cards .card-body{
+    background-color: #fbfaf8;
+}
+.feature3 .cards .card-body h2{
+    color: #c7b299;
+}
+.feature3 .cards .card-body p{
+    color: #d1d1d1;
+}
+.feature3 .cards .activeCard{
+    background-color: #362f2d;
+}
+.feature3 .cards .activeCard h2{
+    color: #d1d1d1;
+}
+.feature3 .cards .activeCard p{
+    color: #c7b299;
+}
+.feature3 .cards .col-lg-4{
+    padding-bottom: 10px;
+}
 
+.feature3 .cards .box1{
+    margin-bottom: 10px;
+}
+
+.feature3 button{
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    opacity: 1;
+    color: #fff;
+    border-bottom: 4px solid #736357;
+    margin-bottom: 10px;
+}
+.feature3 button:hover{
+    width: 170px;
+    height: 50px;
+    background-color: #997C4C;
+    opacity: 1;
+    color: #fff;
+    border-bottom: 4px solid #736357;
+    margin-bottom: 10px;
+}
+
+.feature4{
+    background-image: url('../img/feature4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 705px;
+}
+.feature4{
+    color: #ffffff;
+}
+.feature4 .content{
+    padding-top: 10%;
+}
+
+.feature5 .content ul{
+    list-style-image: url('../img/01.png');
+}
+.feature5 .col-lg-6:nth-child(2){
+    line-height: 2.2;
+}
+.statistics img{
+    padding-bottom: 15px;
+}
+.statistics h2 {
+    color: #fff;
+}
+.statistics p{
+    color: #c7b299;
+}
+.statistics .boxes div{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px 0px 40px 0px;
+}
+.statistics .bottomLine{
+    display: inline-block;
+    width: 30px;
+    border: 2px solid #fff;
+}
+.feature6 .card-body a{
+    color: #c7b299;
+}
+.feature6 .activeCard{
+    background-color: #362f2d;
+}
+.feature6 .activeCard h2{
+    color: #c7b299;
+}
+
+.feature6 .activeCard p{
+    color: #fff;
+}
+.feature6 .row{
+    padding: 0px 20px 20px 20px;
+}
+.feature6 .calendar{
+    width: 50px;
+    height: 60px;
+    color: #fff;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.feature6 .calendar .date{
+    background-color: #363636;
+    border-top: 1px solid #363636;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    padding: 5px;
+}
+.feature6 .calendar .month{
+    background-color: #252525;
+    font-size: 12px;
+    border-bottom: 1px solid #252525;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+.feature6 .activeCalendar .calendar .date{
+    background-color: #c7b299;
+    font-size: 24px;
+    border-top: 1px solid #c7b299;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+.feature6 .activeCalendar .calendar .month{
+    background-color: #a48d72;
+    font-size: 12px;
+    border-bottom: 1px solid #a48d72;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+.feature7{
+    background-image: url('../img/bgphoto03-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 478px;
+}
+
+.feature8{
+    background-color: #191919;
+}
+.feature8 .box{
+    width: 280px;
+}
+.feature8 a, .col-lg-3 .active{
+    color: #c7b299;
+}
+.feature8 p{
+    color: #555;
+}
+.feature8 span{
+    color: #fff;
+    font-size: 12px;
+}
+.feature8 .title{
+    color: #fff;
+    font-size: 24px;
+}
+.feature8 .textBlue{
+    color: #088cb2;
+}
+.feature8 ul{
+    list-style:none;
+    padding-left: 0px !important;
+}
+.feature8 ul li:not(:last-child){
+   border-bottom: 1px solid #555;
+}
+.footer{
+    background-color: #111;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    padding: 0px 20px 0px 20px;
+    color: #555;
+}
+.footer ul li span{
+    color: #a4937e;
+}
+.footer ul:first-child li:not(:last-child){
+    border-right: 2px solid #252525;
+    height: 20px;
+}
+@media (max-width: 1376px) {
+    .feature7 .container img{
+        width: 70% !important;
+    }
+}
 @media (max-width: 1100px) {
     .carousel-caption {
         line-height: 40px;
@@ -96,6 +368,12 @@
         left: 15%;
         color: #fff;
         text-align: center;
+    }
+    .feature2 .content{
+        padding-left: 10%;
+    }
+    .feature2 .content p{
+        margin-bottom: 0px !important;
     }
 }
 @media (max-width: 992px) {
@@ -114,10 +392,21 @@
     .feature2 .parent{
         background-image: url('../img/Waxom-Hemepage_08.png');
         width: 100%;
-        height: 300px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center bottom;
+    }
+    .feature2 .content{
+        padding-left: 30%;
+    }
+    .feature4{
+        height: 360px;
+    }
+    .feature4 p, .feature4 h2{
+        display: none;
+    }
+    .footer ul:first-child li:not(:last-child){
+        border-right: 0px solid #252525;
     }
 
 }
@@ -135,10 +424,17 @@
     .feature2 .parent{
         background-image: url('../img/Waxom-Hemepage_08.png');
         width: 100%;
-        height: 250px;
+        height: 270px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center bottom;
+    }
+    .feature2 .content{
+        padding-left: 5%;
+        text-align: center;
+    }
+    .feature4 p, .feature4 h2{
+        display: none;
     }
 
 }
@@ -146,7 +442,7 @@
     .carousel-caption {
         position: absolute;
         z-index: 1;
-        top: -3%;
+        top: 5%;
         left: 15%;
         color: #fff;
         text-align: center;
@@ -155,14 +451,15 @@
         display: none;
     }
     .carousel-caption h3 {
-        font-size: 18px;
+        font-size: 12px;
     }
     .carousel-caption h1 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0px;
+        margin-bottom: 10px;
     }
     .carousel-caption span {
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 0.5rem !important;
         margin-bottom: 0.5rem !important;
     }
@@ -172,10 +469,35 @@
     .feature2 .parent{
         background-image: url('../img/Waxom-Hemepage_08.png');
         width: 100%;
-        height: 150px;
+        height: 180px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center bottom;
+    }
+    .feature3 ul{
+        padding-left: 0px;
+    }
+    .feature3 ul li{
+        border: 1px solid #ddd;
+        padding: 0px 5px 5px 5px;
+        border-radius: 10px;
+        color: #000;
+        margin-right: 3px;
+    }
+    .feature3 ul .active{
+        padding: 0px 10px 5px 10px;
+    }
+    .feature3 ul li a{
+        font-size: 0.5rem;
+    }
+    .feature4 p, .feature4 h2{
+        display: none;
+    }
+    .feature4{
+        height: 220px;
+    }
+    .feature4 .content{
+        padding: 5%;
     }
 }
 
