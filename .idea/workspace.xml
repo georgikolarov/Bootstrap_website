@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea953ffb-7bac-481c-8289-af321b2d2f8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Waxom_Free_PSD_Template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -223,12 +220,20 @@
       <workItem from="1540991201368" duration="8835000" />
       <workItem from="1541141028115" duration="390000" />
       <workItem from="1541594093820" duration="267000" />
-      <workItem from="1541594489679" duration="4938000" />
+      <workItem from="1541594489679" duration="5122000" />
     </task>
+    <task id="LOCAL-00001" summary="Final changes">
+      <created>1541602152897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541602152897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56147000" />
+    <option name="totallyTimeSpent" value="56331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="985" extended-state="0" />
@@ -266,7 +271,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Final changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
