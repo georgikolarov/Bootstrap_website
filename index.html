@@ -14,14 +14,18 @@
 <div class="container-fluid main">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg text-center p-3 pr-4">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -46,8 +50,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    <li>
+                        <form id="demo">
+                            <input type="search" placeholder="Search">
+                        </form>
                     </li>
                 </ul>
             </div>
@@ -230,6 +236,7 @@
     </div>
 
     <div class="feature5">
+        <div class="container">
             <div class="content">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6 text-center">
@@ -287,6 +294,7 @@
                         <span class="bottomLine"></span>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <div class="feature6">
@@ -294,7 +302,7 @@
             <div class="content text-center pt-4">
                 <h2>Recent Posts.</h2>
                 <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-                    processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                    <br> processus dynamicus, qui sequitur mutationem consuetudium.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 pt-4">
@@ -373,7 +381,9 @@
             <div class="row pt-5 pb-3">
                 <div class="col-xl-3">
                     <a href="#"><img src="img/logo.png" alt=""></a>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        suscipit lobortis claritatem.</p>
                     <a href="#">Read More <img src="img/arrow.png" alt=""></a>
                 </div>
                 <div class="col-xl-3">
@@ -397,12 +407,14 @@
                     <p class="title">Our Twitter</p>
                     <ul>
                         <li>
-                            <p class="mb-0"><span class="textBlue">@waxom</span> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                            <p class="mb-0"><span class="textBlue">@waxom</span> Cum soluta nobis eleifend option congue
+                                nihil imperdiet doming</p>
                             <span class="d-block mb-4">3 mins ago</span>
                         </li>
 
                         <li>
-                            <p class="mb-0">Mirum est <span class="textBlue">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                            <p class="mb-0">Mirum est <span class="textBlue">#envato</span> notare quam littera gothica,
+                                quam nunc putamus parum anteposuerit litterarum</p>
                             <span class="d-block mb-4">5 hours ago</span>
                         </li>
 
@@ -415,39 +427,17 @@
                 <div class="col-xl-3 d-flex flex-column">
                     <p class="title">Dribbble Widget</p>
                     <div class="images d-flex flex-row pb-2">
-                       <img class="pr-2" src="img/footer1.jpg" alt="">
-                       <img src="img/footer2.jpg" alt="">
-                   </div>
-                   <div class="images d-flex flex-row">
-                       <img class="pr-2" src="img/footer3.jpg" alt="">
-                       <img src="img/footer4.jpg" alt="">
-                   </div>
+                        <img class="pr-2" src="img/footer1.jpg" alt="">
+                        <img src="img/footer2.jpg" alt="">
+                    </div>
+                    <div class="images d-flex flex-row">
+                        <img class="pr-2" src="img/footer3.jpg" alt="">
+                        <img src="img/footer4.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <div class="container">
-            <div class="row content pt-3">
-                <div class="col-lg-6">
-                    <ul class="d-flex flex-row flex-wrap">
-                        <li>Copyright © 2015 <span>Waxom</span></li>
-                        <li>Privacy Policy</li>
-                        <li><span>FAQ</span></li>
-                        <li>Support</li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="d-flex flex-row flex-wrap">
-                        <li>Designed by <span>ThemeFire</span> </li>
-                        <li>Only on <span>Envato Market</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 </div>
 
